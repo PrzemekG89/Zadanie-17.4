@@ -1,0 +1,25 @@
+body {
+    background-color: #cdcdcd;
+}
+
+form {
+    background-color: #642dfa;
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+form p input {
+    margin-left: 10px;
+    border: none;
+}
+
+.submit {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(33, 253, 4);
+    padding: 3px 10px;
+}

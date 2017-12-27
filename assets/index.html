@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Node Hello world example</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <form action="http://localhost:3000/userform" method="GET">
+        <p>
+            First Name:
+            <input type="text" name="first_name">
+        </p>
+        <p>
+            Last Name:
+            <input type="text" name="last_name">
+        </p>
+        <p>
+            Email:
+            <input type="email" name="email">
+        </p>
+        <p>
+            Date of birth:
+            <input type="date" name="date_of_birth"> 
+        </p>
+        <p>
+            Sex:
+            <input type="checkbox" name="sex" id="sex-f" value="female">
+            <label for="sex-f">Female</label>
+            <input type="checkbox" name="sex" id="sex-m" value="male">
+            <label for="sex-m">Male</label>
+        </p>
+        <p>
+            City:
+            <input type="text" name="city">
+        </p>
+        <input class="submit" type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
